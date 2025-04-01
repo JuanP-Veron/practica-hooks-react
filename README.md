@@ -1,8 +1,47 @@
-# React + Vite
+# HooksApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto en React que demuestra el uso de distintos Hooks de React para manejar estados, efectos y optimizaciones en una aplicación web.
 
-Currently, two official plugins are available:
+## Características
+- Uso de `useState` para manejar estados en los componentes.
+- Implementación de `useMemo` para optimizar cálculos pesados.
+- Uso de `useFetch` para realizar peticiones a una API externa.
+- Componentes modulares reutilizables.
+- Estilos con Bootstrap para una mejor presentación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación
+1. Clonar el repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/HooksApp.git
+   ```
+2. Acceder al directorio del proyecto:
+   ```sh
+   cd HooksApp
+   ```
+3. Instalar dependencias:
+   ```sh
+   npm install
+   ```
+4. Iniciar la aplicación en modo desarrollo:
+   ```sh
+   npm start
+   ```
+
+## Componentes Principales
+
+### `HooksApp`
+### `CalculosPesados`
+### `UsuariosComponent`
+
+## Tecnologías utilizadas
+- React
+- JavaScript (ES6+)
+- Bootstrap
+- JSONPlaceholder API (para datos de usuarios)
+
+## Autor
+Juan Pablo Verón
+
+## Licencia
+Este proyecto está bajo la licencia MIT.
+
